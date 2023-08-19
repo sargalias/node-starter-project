@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2015",
     "outDir": "build",
     "rootDir": "src",
     "module": "ESNext",
-    "strict": true
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "sourceMap": true
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules/**"]
+  "exclude": ["node_modules/**", "src/**/*.test*"]
 }
